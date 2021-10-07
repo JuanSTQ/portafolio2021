@@ -18,12 +18,12 @@ const Contacto = () => {
           
         </div>
         <form className="container_form" action="/">
-          <label className="label" htmlFor="email">Email</label>
+          <label className="label" htmlFor="email">nombre</label>
           <input className="input" id="email" type="text" 
-          placeholder="juan@gmail.com" />
-          <label className="label" htmlFor="password">Password</label>
-          <input className="input" id="password" type="password" 
-          placeholder="*********" />
+          placeholder="Juan Sebastian Tello Quinteros" />
+          <label className="label" htmlFor="password">email</label>
+          <input className="input" id="password" type="email" 
+          placeholder="juan@example.com" />
           <label className="label" htmlFor="message">Your message</label>
           <textarea name="" id="message" cols="30" rows="4"></textarea>
           <button className="send_data" type="submit">Enviar</button>

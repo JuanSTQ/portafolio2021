@@ -1,6 +1,9 @@
 import React from 'react'
 import "../styles/components/projects.css"
 import confStore from '../images/enzardev.png'
+import weatherApp from '../images/weather.png'
+import bateria from '../images/bateria.png'
+import rickandmorty from '../images/rickandmorty.png'
 const Projects = () => {
   return (
     <>
@@ -16,24 +19,24 @@ const Projects = () => {
             </div>
           </section>
           <section className="card_project">
-            <img src={confStore} alt="Proyecto" />
-            <p className="card_tecnologies">html, css, Javascript, ReactJS, firebase</p>
+            <img src={weatherApp} alt="Proyecto" />
+            <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para comprar articulos</p>
               <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
             </div>
           </section>
           <section className="card_project">
-            <img src={confStore} alt="Proyecto" />
-            <p className="card_tecnologies">html, css, Javascript, ReactJS, firebase</p>
+            <img src={bateria} alt="Proyecto" />
+            <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para comprar articulos</p>
               <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
             </div>
           </section>
           <section className="card_project">
-            <img src={confStore} alt="Proyecto" />
-            <p className="card_tecnologies">html, css, Javascript, ReactJS, firebase</p>
+            <img src={rickandmorty} alt="Proyecto" />
+            <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para comprar articulos</p>
               <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
