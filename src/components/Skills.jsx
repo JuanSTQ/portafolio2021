@@ -34,7 +34,7 @@ const Skills = () => {
   return (
     <>
     <section id="skillsId" className="skills">
-        <h2 className="skills__title">Skills</h2>
+        <h2 id="skills" className="skills__title">Skills</h2>
         <div className="container__skills">
           <figure>
             <img src={skill} alt="" />

@@ -8,3 +8,45 @@ html {
   font-family: "DM Sans", sans-serif;
   scroll-behavior: smooth;
 }
+
+@media (max-width:570px){
+    .projects__title{
+      font-size: 8rem;
+
+    }
+    .skills__title{
+      font-size: 8rem;
+    }
+    .contact__title{
+      font-size: 8rem;
+    }
+    .social{
+      width: 100%;
+      padding-bottom: 50px;
+
+    }
+    .circle{
+      width: 60px;
+      height: 60px;
+    }
+  
+}
+@media (max-width:425px){
+  .projects__title{
+    font-size: 6rem;
+  }
+  .skills__title{
+    font-size: 6rem;
+    padding-top: 20%;
+
+  }
+  .contact__title{
+    font-size: 6rem;
+    padding-bottom: 40px;
+  }
+/*   .container_form{
+    padding-top: 35px;
+  } */
+
+
+}
