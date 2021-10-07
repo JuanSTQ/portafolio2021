@@ -24,7 +24,7 @@ const Projects = () => {
             <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para buscar el clima de tu ciudad</p>
-              <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
+              <a href="https://6064f285d270fc0007f0ddff--cranky-jackson-4efe0c.netlify.app/" target="_blank">Visit Website</a>
             </div>
           </section>
           <section className="card_project">
@@ -32,7 +32,7 @@ const Projects = () => {
             <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para tocar musica</p>
-              <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
+              <a href="https://606aa9696caf8d00076b9df2--dazzling-stonebraker-7cbe45.netlify.app/" target="_blank">Visit Website</a>
             </div>
           </section>
           <section className="card_project">
@@ -40,7 +40,7 @@ const Projects = () => {
             <p className="card_tecnologies">html, css, Javascript</p>
             <div className="overlay-project">
               <p>Una web para ver personajes de rick and morty</p>
-              <a href="https://enzardev.xyz/" target="_blank">Visit Website</a>
+              <a href="https://605e70e1a0cf9b47cfb6dab1--pedantic-archimedes-10f5e2.netlify.app/" target="_blank">Visit Website</a>
             </div>
           </section>
           <section className="card_project">
