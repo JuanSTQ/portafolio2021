@@ -31,7 +31,6 @@
   opacity: .9;
 }
 .intro-content h1{
-
   font-size: 5rem;
   margin-bottom: 30px;
 }
@@ -44,3 +43,11 @@
   height: 100%;
   object-fit: cover;
 }
+.container-text-dinamic{
+  display: flex;
+  justify-content: center;
+}
+.container-text-dinamic p{
+  font-size: 3.2rem;
+}
+

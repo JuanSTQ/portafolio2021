@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react'
 import "../styles/components/home.css"
 import tasinteo from '../images/Tasinteo.jpg'
+import textDinamicHome from '../utils/textDinamicHome'
 const Home = () => {
 
   useEffect(() => {
+    const text = document.getElementById('text-dinamic')
+    textDinamicHome(text)
     const  headerTarget = document.getElementById('nav_header')      
     const introContent = document.getElementById('intro__content')
     const activeClass = (nodo)=>{
@@ -32,6 +35,7 @@ const Home = () => {
     }else{
       observer.observe(introContent)
     }
+
   }, [])
   return (
       <div id="home" className="intro">
@@ -40,8 +44,10 @@ const Home = () => {
         <div id="intro__content" className="intro-content">
           <div className="container-text">
             <h1>Hola, Soy Juan Tello</h1>
-            <p>Web Developer</p>
-
+            <div className="container-text-dinamic">
+              <p id="text-dinamic"></p>
+              <p className="underscore">|</p>
+            </div>
           </div>
         </div>
       </div>
