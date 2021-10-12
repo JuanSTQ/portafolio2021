@@ -1,10 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../styles/components/contact.css"
+import textTransition from '../utils/textTransition'
 const Contacto = () => {
+  useEffect(() => {
+    const titleContact = document.getElementById('contact')
+    const observer = new IntersectionObserver((entries)=>{
+      if(entries[0].isIntersecting){
+        textTransition(titleContact, 60)
+        observer.unobserve(titleContact)
+        console.log('adios')
+      }
+    }, {threshold:0.65})
+    observer.observe(titleContact)
+  }, [])
   return (
     <>
       <section className="section-contact">
-        <h2 id="contact" className="contact__title">Contacto</h2>
+        <h2 id="contact" className="contact__title">
+          <span>C</span>
+          <span>o</span>
+          <span>n</span>
+          <span>t</span>
+          <span>a</span>
+          <span>c</span>
+          <span>t</span>
+          <span>o</span>
+        </h2>
         <div className="social">
           <a href="https://twitter.com/juanstq" target="_blank" className="circle">
             <i className="fab fa-twitter twitter"></i>

@@ -1,15 +1,38 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../styles/components/projects.css"
 import confStore from '../images/enzardev.png'
 import weatherApp from '../images/weather.png'
 import bateria from '../images/bateria.png'
 import rickandmorty from '../images/rickandmorty.png'
 import benturi from '../images/benturi.png'
+import textTransition from '../utils/textTransition'
 const Projects = () => {
+  
+  useEffect(() => {
+    const titleProjects = document.getElementById('projects')
+    const observer = new IntersectionObserver((entries)=>{
+      if(entries[0].isIntersecting){
+        textTransition(titleProjects, 60);
+        observer.unobserve(titleProjects);
+        console.log('adios')
+      }
+    }, {threshold:0.3})
+    observer.observe(titleProjects)
+  }, [])
+  //Projects
   return (
     <>
       <section className="projects__section">
-        <h2 id="projects" className="projects__title">Projects</h2>
+        <h2 id="projects" className="projects__title">
+          <span>P</span>
+          <span>r</span>
+          <span>o</span>
+          <span>j</span>
+          <span>e</span>
+          <span>c</span>
+          <span>t</span>
+          <span>s</span>
+        </h2>
         <div className="container__projects">
           <section className="card_project">
             <img src={benturi} alt="Proyecto" />

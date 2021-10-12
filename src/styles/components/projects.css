@@ -13,6 +13,10 @@
   padding-top: 95px;
   padding-bottom: 95px;
 }
+.projects__title span{
+  opacity: 0;
+  transition: all 800ms;
+}
 .container__projects{
   width: 70%;
   height: 100%;

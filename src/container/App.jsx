@@ -9,9 +9,9 @@ const App = () => {
     <>
       <Header></Header>
       <Home></Home>
-      <Skills></Skills>
+{/*       <Skills></Skills>
       <Projects></Projects>
-      <Contacto></Contacto>
+      <Contacto></Contacto> */}
     </>
   )
 }
